@@ -1,0 +1,12 @@
+class KundenGenerator{
+Kunde neuerKunde(Kunde alterKunde){
+ return new Kunde(alterKunde);
+ }
+ public static void main(String[] args){
+  KundenGenerator generator= new Kundengenerator();
+  Kunde kunde1=new Kunde("Meier","Hans");
+  Geschäftskunde kunde2= new GeschäftsKunde("Meier","Hans","2131");
+  Kunde neuerKunde1=generator.neuerKunde(kunde1);
+  Kunde neuerKunde2=generator.neuerKunde(kunde2);
+  /* Klassenzugehörigkeit: Klasse des neuen Kunden kunde1: Kunde
+                           Klasse des neuen Kunden kunde2: Kunde

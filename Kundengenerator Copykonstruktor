@@ -10,3 +10,4 @@ Kunde neuerKunde(Kunde alterKunde){
   Kunde neuerKunde2=generator.neuerKunde(kunde2);
   /* Klassenzugehörigkeit: Klasse des neuen Kunden kunde1: Kunde
                            Klasse des neuen Kunden kunde2: Kunde
+                           d.h. der Copy-Konstruktor agiert nicht polymorph auf der Grundlage des übergebenen Objekts*/
